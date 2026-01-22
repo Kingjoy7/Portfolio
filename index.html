@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Sujoy Sen | Portfolio</title>
+
+    <meta name="description" content="Portfolio of Sujoy Sen - Computer Science Undergraduate, Web Developer and Cloud Enthusiast">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Normalize -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: #0f172a;
+            color: white;
+            padding: 40px 0;
+        }
+
+        .wrapper {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        .about {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .about img {
+            width: 250px;
+            border-radius: 50%;
+        }
+
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .social a {
+            color: white;
+            margin: 0 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="wrapper">
+        <h1>Sujoy Sen</h1>
+        <p>B.Tech CSE | PES University | SRN: PES2UG23CS621</p>
+
+        <nav>
+            <ul>
+                <li><a href="#work">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- PROJECTS -->
+<section id="work">
+    <div class="wrapper">
+        <h2>My Projects</h2>
+
+        <div class="projects">
+
+            <div class="card">
+                <img src="https://dummyimage.com/400x250/000/fff&text=Cloud+Storage" alt="">
+                <h3>Cloud Object Storage</h3>
+                <p>Implemented object storage using Supabase with Python API and public image hosting.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://dummyimage.com/400x250/000/fff&text=Serverless" alt="">
+                <h3>Serverless Function</h3>
+                <p>Built and deployed a Python serverless function using Napkin.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://dummyimage.com/400x250/000/fff&text=Portfolio" alt="">
+                <h3>Portfolio Website</h3>
+                <p>Deployed responsive portfolio using GitHub and Vercel.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="wrapper about">
+        <img src="https://dummyimage.com/250x250/000/fff&text=Your+Photo" alt="Profile">
+
+        <div>
+            <h2>About Me</h2>
+            <p>
+                I am a Computer Science Engineering student at PES University.
+                I am interested in Cloud Computing, Web Development, and Software Engineering.
+                I enjoy building real-world applications and learning new technologies.
+            </p>
+
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python</li>
+                <li>Cloud Computing (Supabase, Vercel)</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <div class="wrapper">
+        <h2>Contact Me</h2>
+        <p>Email: sujoysenmail@gmail.com</p>
+        <p>Phone: +91-8104680815</p>
+
+        <div class="social">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Sujoy Sen | PES2UG23CS621</p>
+</footer>
+
+</body>
+</html>
